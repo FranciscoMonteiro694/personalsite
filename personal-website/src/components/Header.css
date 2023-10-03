@@ -1,5 +1,5 @@
 .main-div {
-    background-color: red;
+    background-color: #5aa9e6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,8 +8,27 @@
 
 a {
     cursor: pointer;
+    font-weight: bold;
 }
 
-.a-button {
+.nav-menu a{
     padding: 0 1rem 0 1rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
+
+.nav-menu a:hover {
+    color: #fddb3a;
+}
+
+.nav-menu .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-transform: translateX(35px);
+    transform: translateX(35px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }

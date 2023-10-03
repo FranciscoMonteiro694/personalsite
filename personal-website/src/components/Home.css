@@ -1,0 +1,27 @@
+#home {
+    height: 100vh;
+    display: flex;
+    background-color: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image-container {
+    width: 200px; /* Set the desired width for your image container */
+    height: 200px; /* Set the desired height for your image container */
+    overflow: hidden; /* Clip any content that overflows the container */
+    border-radius: 50%;
+}
+
+.profile-image {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: 100%; /* Make the image take up the full height of its container */
+    object-fit: contain; /* Crop the image to cover the container, maintaining aspect ratio */
+}

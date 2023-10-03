@@ -7,20 +7,21 @@ type HeaderProps = {
 
 const Header = () => {
   return (
-    <div className="main-div">
+    <header className="main-div">
       <div className="left-container">
-        <a>Francisco</a>
+        <a>Francisco Monteiro</a>
       </div>
       <div className="right-container">
-        <nav>
-          <a className="a-button">Home</a>
-          <a className="a-button">About</a>
-          <a className="a-button">Experience</a>
-          <a className="a-button">Education</a>
-          <a className="a-button">Contact</a>
+        <nav className="nav-menu">
+          <a>Home</a>
+          <a>About</a>
+          <a>Experience</a>
+          <a>Education</a>
+          <a>Contact</a>
+          <div className="dot"></div>
         </nav>
       </div>
-    </div>
+    </header>
   );
 };
 
